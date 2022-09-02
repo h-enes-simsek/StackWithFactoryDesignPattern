@@ -3,6 +3,9 @@
  *
  * Stack implementation with factory design pattern in C
  */
+ 
+#ifndef STACK_ARRAY_H
+#define STACK_ARRAY_H
 
 #include "stack.h"
 
@@ -20,3 +23,5 @@ static void stack_array_pop (struct Stack *s);
 static void stack_array_push (struct Stack *s, int x);
 static void stack_array_destroy (struct Stack *s);
 struct Stack * stack_array_create ();
+
+#endif

@@ -3,6 +3,9 @@
  *
  * Stack implementation with factory design pattern in C
  */
+ 
+#ifndef STACK_H
+#define STACK_H
 
 #define STACK_SIZE_MAX 5
 
@@ -26,3 +29,5 @@ void stack_push (struct Stack *s, int x);
 int stack_empty (struct Stack *s);
 int stack_full (struct Stack *s);
 void stack_destroy (struct Stack *s);
+
+#endif

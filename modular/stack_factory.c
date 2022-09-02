@@ -12,7 +12,7 @@ struct Stack * stack_create(Stack_imp_type t)
     if(t == STACK_IMPLEMENTATION_ARRAY)
         return stack_array_create();
     else if(t == STACK_IMPLEMENTATION_LIST)
-        return NULL; // not yet implemented
+        return stack_list_create();
     else 
         return NULL;
 }
