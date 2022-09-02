@@ -5,8 +5,10 @@ When I saw the answer of `@jxh`'s to the question [how to implement dynamic meth
 # Docs
 
 * modular
+
 This folder includes stack implementation with factory and it is more modular.
 
 * onefile
+
 This folder includes stack implementation without factory and there is only one file.
 
