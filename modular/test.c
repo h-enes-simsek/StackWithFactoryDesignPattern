@@ -14,7 +14,7 @@
 
 int main()
 {
-		printf("Stack with array implementation\n");
+    printf("Stack with array implementation\n");
     struct Stack *s1 = stack_create(STACK_IMPLEMENTATION_ARRAY);
 
     stack_push(s1, 1);
@@ -22,19 +22,19 @@ int main()
     printf("expected:2, output:%d\n",stack_top(s1));
     stack_pop(s1);
     printf("expected:1, output:%d\n",stack_top(s1));
-		stack_pop(s1);
-		stack_pop(s1);
-		stack_pop(s1);
-		printf("expected:-1, output:%d\n",stack_top(s1));
-		stack_push(s1, 5);
-		printf("expected:5, output:%d\n",stack_top(s1));
-		stack_push(s1, 5);
-		stack_push(s1, 5);
-		stack_push(s1, 5);
-		stack_push(s1, 5);
-		stack_push(s1, 7);
-		printf("expected:5, output:%d\n",stack_top(s1));
-		stack_destroy(s1);
-		
-		getchar();
+    stack_pop(s1);
+    stack_pop(s1);
+    stack_pop(s1);
+    printf("expected:-1, output:%d\n",stack_top(s1));
+    stack_push(s1, 5);
+    printf("expected:5, output:%d\n",stack_top(s1));
+    stack_push(s1, 5);
+    stack_push(s1, 5);
+    stack_push(s1, 5);
+    stack_push(s1, 5);
+    stack_push(s1, 7);
+    printf("expected:5, output:%d\n",stack_top(s1));
+    stack_destroy(s1);
+    
+    getchar();
 }
