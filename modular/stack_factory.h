@@ -7,9 +7,6 @@
 #ifndef STACK_FACTORY_H
 #define STACK_FACTORY_H
 
-#include "stack_array.h"
-#include "stack_list.h"
-
 // a stack can be implemented with an array or a linked list
 typedef enum 
 {

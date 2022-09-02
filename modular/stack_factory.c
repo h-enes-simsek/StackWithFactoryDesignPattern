@@ -5,6 +5,8 @@
  */
 
 #include <stddef.h> // for NULL
+#include "stack_array.h"
+#include "stack_list.h"
 #include "stack_factory.h"
 
 struct Stack * stack_create(Stack_imp_type t)

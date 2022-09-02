@@ -10,6 +10,8 @@
  */
 
 #include <stdio.h>
+#include "stack_array.h"
+#include "stack_list.h"
 #include "stack_factory.h"
 
 int main()
